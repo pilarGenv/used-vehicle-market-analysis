@@ -1,26 +1,129 @@
-# Análisis de Vehículos Usados - Dashboard Interactivo
+# Used Vehicle Market Analysis
 
-Esta aplicación web interactiva permite explorar un conjunto de datos de anuncios de venta de vehiculos de manera dinámica. Desarrollada con Streamlit, ofrece una interfaz intuitiva para analizar tendencias en el mercado de vehículos usados a través de visualizaciones interactivas.
+## Project Overview
 
-## Funcionalidades
-- Visualización de distribución de años de modelo mediante histogramas interactivos
-- Análisis de relación entre año del modelo y precio con gráficos de dispersión
-- Controles interactivos con checkboxes para seleccionar diferentes tipos de visualizaciones
-- Dashboard responsivo que se adapta al contenedor
+This interactive web application allows users to explore a dataset of used vehicle advertisements through dynamic visualizations.
 
-## Tecnologías utilizadas
-- **Python** - Lenguaje de programación principal
-- **Streamlit** - Framework para aplicaciones web
-- **Plotly** - Biblioteca para gráficos interactivos
-- **Pandas** - Manipulación y análisis de datos
+The application was developed using Streamlit and Plotly to provide an intuitive way of analyzing pricing trends and vehicle characteristics.
 
-## Despliegue en Render
-Esta aplicación está desplegada en Render. Para desplegar tu propia versión:
+---
 
-- Crea una cuenta en render.com y conecta tu cuenta de GitHub
+## Business Problem
 
-- Crea un nuevo "Web Service" desde tu repositorio de GitHub
+Buying and selling used vehicles requires understanding market trends such as pricing, vehicle age, and distribution of listings.
 
-- Configura las siguientes opciones:
-Build Command: pip install -r requirements.txt
-Start Command: streamlit run app.py
+This dashboard helps users explore these relationships interactively.
+
+---
+
+## Dataset
+
+The dataset contains advertisements for used vehicles, including information such as:
+
+- Price
+- Model year
+- Mileage
+- Fuel type
+- Vehicle condition
+- Transmission
+- Manufacturer
+
+---
+
+## Features
+
+- Interactive histogram of vehicle model years
+- Interactive scatter plot of model year vs. price
+- User-controlled visualization selection
+- Responsive dashboard built with Streamlit
+
+---
+
+## Technologies
+
+- Python
+- Pandas
+- Plotly Express
+- Streamlit
+
+---
+
+## Project Structure
+
+```
+.
+├── app.py
+├── requirements.txt
+├── vehicles_us.csv
+├── notebooks
+│   └── used_vehicle_market_analysis.ipynb
+└── README.md
+```
+
+---
+
+## Results
+
+The dashboard allows users to:
+
+- Explore vehicle price distributions
+- Identify trends between model year and price
+- Interactively analyze the dataset
+
+## Dashboard Preview
+
+### Main Dashboard
+
+![Dashboard](images/dashboard.png)
+
+---
+
+### Histogram
+
+![Histogram](images/histogram.png)
+
+---
+
+### Scatter Plot
+
+![Scatter Plot](images/scatterplot.png)
+
+---
+
+## Live Demo
+
+🚀 **Interactive Dashboard**
+
+👉 https://spring-7-proyecto-x8le.onrender.com
+
+The application is deployed on Render and allows users to explore used vehicle market data through interactive visualizations and filters.
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Interactive Dashboard Development
+- Python Programming
+- Streamlit
+- Plotly
+- Pandas
+
+## Future Improvements
+
+- Add predictive models for vehicle pricing.
+- Include filtering by manufacturer and fuel type.
+- Improve dashboard interactivity.
+- Deploy future versions using Streamlit Community Cloud.
+
+## Author
+
+**Pilar Garcia**
+
+Environmental Engineer transitioning into Data Science with an interest in GIS, Spatial Analytics, Environmental Data and Machine Learning.
+
+GitHub:
+https://github.com/pilarGenv
+
+LinkedIn:
+https://linkedin.com/in/ing-pilargarcia
